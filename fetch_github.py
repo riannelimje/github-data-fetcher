@@ -268,13 +268,17 @@ class GitHubDataFetcher:
         
         return data
     
-    def fetch_all_user_repos_data(self, username: str, max_repos: int = 50) -> List[Dict]:
+    def fetch_all_user_repos_data(self, username: str, max_repos: int = 50, 
+                                   include_forks: bool = True, 
+                                   skip_inactive_forks: bool = True) -> List[Dict]:
         """
         Fetch complete data for all user repositories.
         
         Args:
             username: GitHub username
             max_repos: Maximum number of repos to process
+            include_forks: Whether to include forked repositories
+            skip_inactive_forks: If True, skip forks with no commits by the user
             
         Returns:
             List of complete repo data dictionaries
@@ -283,9 +287,24 @@ class GitHubDataFetcher:
         all_data = []
         
         for repo in repos:
-            if repo.get("fork") and not repo.get("forks_count", 0) > 0:
-                # Skip forks that don't have activity
-                continue
+            # Handle fork filtering
+            if repo.get("fork"):
+                if not include_forks:
+                    print(f"Skipping fork: {repo['name']}")
+                    continue
+                
+                if skip_inactive_forks:
+                    # Check if user has made commits to this fork
+                    commits = self.get_recent_commits(repo["owner"]["login"], repo["name"], limit=5)
+                    user_has_commits = any(
+                        c.get("commit", {}).get("author", {}).get("name", "").lower() == username.lower() or
+                        c.get("author", {}).get("login", "").lower() == username.lower()
+                        for c in commits
+                    )
+                    
+                    if not user_has_commits:
+                        print(f"Skipping inactive fork: {repo['name']}")
+                        continue
             
             try:
                 data = self.fetch_complete_repo_data(repo["owner"]["login"], repo["name"])
@@ -311,14 +330,22 @@ class GitHubDataFetcher:
 
 # Example usage
 if __name__ == "__main__":
-
     TOKEN = os.getenv("GITHUB_ACCESS_TOKEN")
-    USERNAME = os.getenv("GITHUB_USERNAME")
-
+    USERNAME = os.getenv("GITHUB_USERNAME") # or can just set username directly here eg. "your_username"
+     
     fetcher = GitHubDataFetcher(TOKEN)
     
-    # Fetch all repos data
-    repos_data = fetcher.fetch_all_user_repos_data(USERNAME, max_repos=20)
+    # Fetch all repos data 
+    repos_data = fetcher.fetch_all_user_repos_data(
+        USERNAME, 
+        max_repos=20,
+        include_forks=True,  # Set to False to exclude all forks
+        skip_inactive_forks=False  # Set to False to include all forks
+        # include_forks=True - Include forked repos (default)
+        # include_forks=False - Only show original repos
+        # skip_inactive_forks=True - Skip forks you haven't contributed to (default)
+        # skip_inactive_forks=False - Include all forks
+    )
     
     # Save to JSON
     fetcher.save_to_json(repos_data, f"{USERNAME}_github_portfolio.json")
