@@ -1,0 +1,915 @@
+[
+  {
+    "name": "github-data-fetcher",
+    "full_name": "riannelimje/github-data-fetcher",
+    "description": null,
+    "url": "https://github.com/riannelimje/github-data-fetcher",
+    "homepage": null,
+    "created_at": "2025-10-06T05:10:43Z",
+    "updated_at": "2025-10-06T05:10:47Z",
+    "pushed_at": "2025-10-06T05:10:44Z",
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "open_issues": 0,
+    "language": null,
+    "languages": {},
+    "topics": [],
+    "readme": "# github-data-fetcher",
+    "license": "",
+    "is_fork": false,
+    "is_archived": false,
+    "default_branch": "main",
+    "file_structure": [
+      ".gitignore",
+      "README.md"
+    ],
+    "recent_commits": [
+      {
+        "message": "Initial commit",
+        "date": "2025-10-06T05:10:43Z",
+        "author": "Rianne Lim"
+      }
+    ]
+  },
+  {
+    "name": "options-wiz",
+    "full_name": "riannelimje/options-wiz",
+    "description": "learning options",
+    "url": "https://github.com/riannelimje/options-wiz",
+    "homepage": null,
+    "created_at": "2025-09-23T02:59:18Z",
+    "updated_at": "2025-09-30T05:50:01Z",
+    "pushed_at": "2025-09-30T05:49:57Z",
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "open_issues": 0,
+    "language": "Python",
+    "languages": {
+      "Python": 21772
+    },
+    "topics": [],
+    "readme": "# options-wiz\nlearning options\n",
+    "license": "",
+    "is_fork": false,
+    "is_archived": false,
+    "default_branch": "main",
+    "file_structure": [
+      ".gitignore",
+      "README.md",
+      "backend/app/main.py",
+      "backend/requirements.txt",
+      "frontend/requirements.txt",
+      "frontend/streamlit_app.py"
+    ],
+    "recent_commits": [
+      {
+        "message": "remove st.rerun() - creates infinite loop",
+        "date": "2025-09-30T05:48:59Z",
+        "author": "Rianne Lim"
+      },
+      {
+        "message": "add expiration date selector",
+        "date": "2025-09-30T05:45:33Z",
+        "author": "Rianne Lim"
+      },
+      {
+        "message": "set expiration date",
+        "date": "2025-09-30T05:38:38Z",
+        "author": "Rianne Lim"
+      },
+      {
+        "message": "add options chain section",
+        "date": "2025-09-26T10:42:24Z",
+        "author": "Rianne Lim"
+      },
+      {
+        "message": "fix expiration and NaN issues",
+        "date": "2025-09-26T10:35:37Z",
+        "author": "Rianne Lim"
+      }
+    ]
+  },
+  {
+    "name": "is469",
+    "full_name": "riannelimje/is469",
+    "description": "gen ai with llm dump ",
+    "url": "https://github.com/riannelimje/is469",
+    "homepage": null,
+    "created_at": "2025-08-22T06:18:14Z",
+    "updated_at": "2025-09-25T05:29:01Z",
+    "pushed_at": "2025-09-25T05:28:58Z",
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "open_issues": 0,
+    "language": "Jupyter Notebook",
+    "languages": {
+      "Jupyter Notebook": 2144917
+    },
+    "topics": [],
+    "readme": "# Gen AI with LLMs \nStoring the labs from IS469 + readme explaining the concepts for each week\n",
+    "license": "",
+    "is_fork": false,
+    "is_archived": false,
+    "default_branch": "main",
+    "file_structure": [
+      "README.md",
+      "nb/gpt-oss-(20B)-Fine-tuning.ipynb",
+      "week01/README.md",
+      "week01/Topic1-BOW-TF-IDF-cosine-sim.ipynb",
+      "week01/bag_of_words.ipynb",
+      "week02/README.md",
+      "week02/Topic1_w2v.ipynb",
+      "week02/word2vec.ipynb",
+      "week03/BERT.ipynb",
+      "week03/README.md",
+      "week03/Temperature.ipynb",
+      "week03/Topic2.ipynb",
+      "week03/Topic2_Temperature.ipynb",
+      "week04/README.md",
+      "week04/Topic3.ipynb",
+      "week04/finetune.ipynb",
+      "week05/README.md",
+      "week05/gpt_oss_(20B)_Fine_tuning.ipynb"
+    ],
+    "recent_commits": [
+      {
+        "message": "finetune gpt-oss",
+        "date": "2025-09-25T05:28:47Z",
+        "author": "Rianne Lim"
+      },
+      {
+        "message": "Created using Colab",
+        "date": "2025-09-19T07:56:47Z",
+        "author": "Rianne Lim"
+      },
+      {
+        "message": "efficiently finetune a decoder",
+        "date": "2025-09-19T05:53:26Z",
+        "author": "Rianne Lim"
+      },
+      {
+        "message": "finetuning BERT",
+        "date": "2025-09-17T06:31:45Z",
+        "author": "Rianne Lim"
+      },
+      {
+        "message": "finetune",
+        "date": "2025-09-16T08:56:35Z",
+        "author": "Rianne Lim"
+      }
+    ]
+  },
+  {
+    "name": "the-devils-plan",
+    "full_name": "riannelimje/the-devils-plan",
+    "description": "recreating the games from the devil's plan :)",
+    "url": "https://github.com/riannelimje/the-devils-plan",
+    "homepage": "https://the-devils-plan.vercel.app",
+    "created_at": "2025-05-09T09:48:14Z",
+    "updated_at": "2025-09-24T09:26:36Z",
+    "pushed_at": "2025-07-20T02:47:10Z",
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "open_issues": 0,
+    "language": "TypeScript",
+    "languages": {
+      "TypeScript": 220481,
+      "CSS": 4168,
+      "JavaScript": 570
+    },
+    "topics": [],
+    "readme": "# the-devils-plan \nI really wanted to play the games from the devil's plan so I thought why not recreate them!\n\nThe current games catalogue: \n1) The Knight's Tour\n2) Remove One\n3) Time Auction (still work in progress)\n\nThe server may occassionally hang during gameplay for multiplayer ones... (still fixing) \n\n## Tech Stack\n\n- **Frontend**: Next.js \n- **Backend/Realtime**: Supabase\n- **Deployment**: Vercel\n\n---\n\nThis is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).\n\n## Getting Started\n\nFirst, run the development server:\n\n```bash\nnpm run dev\n# or\nyarn dev\n# or\npnpm dev\n# or\nbun dev\n```\n\nOpen [http://localhost:3000](http://localhost:3000) with your browser to see the result.\n\nYou can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.\n\nThis project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.\n\n## Learn More\n\nTo learn more about Next.js, take a look at the following resources:\n\n- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.\n- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.\n\nYou can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!\n\n## Deploy on Vercel\n\nThe easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.\n\nCheck out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.\n",
+    "license": "",
+    "is_fork": false,
+    "is_archived": false,
+    "default_branch": "main",
+    "file_structure": [
+      ".gitignore",
+      "README.md",
+      "components.json",
+      "eslint.config.mjs",
+      "next.config.ts",
+      "package-lock.json",
+      "package.json",
+      "postcss.config.mjs",
+      "public/file.svg",
+      "public/globe.svg",
+      "public/images/game1.png",
+      "public/images/game2.png",
+      "public/images/game3.png",
+      "public/images/mask.png",
+      "public/next.svg",
+      "public/vercel.svg",
+      "public/window.svg",
+      "src/app/about/page.tsx",
+      "src/app/favicon.ico",
+      "src/app/games/knightsTour/page.tsx",
+      "src/app/games/removeOne/page.tsx",
+      "src/app/games/removeOne/rules/page.tsx",
+      "src/app/games/timeAuction/page.tsx",
+      "src/app/games/timeAuction/rules/page.tsx",
+      "src/app/games/wallBaduk/page.tsx",
+      "src/app/globals.css",
+      "src/app/layout.tsx",
+      "src/app/page.tsx",
+      "src/components/ThemeProvider.tsx",
+      "src/components/gameCard.tsx",
+      "src/components/header.tsx",
+      "src/components/toggle.tsx",
+      "src/components/ui/badge.tsx",
+      "src/components/ui/button.tsx",
+      "src/components/ui/card.tsx",
+      "src/components/ui/dialog.tsx",
+      "src/components/ui/input.tsx",
+      "src/components/ui/label.tsx",
+      "src/components/ui/select.tsx",
+      "src/components/ui/switch.tsx",
+      "src/components/ui/tabs.tsx",
+      "src/hooks/useSupabaseGame.ts",
+      "src/hooks/useTimeAuction.ts",
+      "src/lib/supabase.ts",
+      "src/lib/utils.ts",
+      "tailwind.config.ts",
+      "tsconfig.json"
+    ],
+    "recent_commits": [
+      {
+        "message": "simple wall baduk for a start",
+        "date": "2025-07-20T02:46:56Z",
+        "author": "Rianne Lim"
+      },
+      {
+        "message": "add localTimeBank",
+        "date": "2025-06-21T11:54:17Z",
+        "author": "Rianne Lim"
+      },
+      {
+        "message": "add force processing",
+        "date": "2025-06-21T11:50:13Z",
+        "author": "Rianne Lim"
+      },
+      {
+        "message": "timer starts from 0 but does not show",
+        "date": "2025-06-21T11:16:49Z",
+        "author": "Rianne Lim"
+      },
+      {
+        "message": "fix grid size",
+        "date": "2025-06-21T08:46:19Z",
+        "author": "Rianne Lim"
+      }
+    ]
+  },
+  {
+    "name": "pinecone_playground",
+    "full_name": "riannelimje/pinecone_playground",
+    "description": "playing around with pinecone",
+    "url": "https://github.com/riannelimje/pinecone_playground",
+    "homepage": "https://pinecone-playground.vercel.app",
+    "created_at": "2025-08-26T02:21:17Z",
+    "updated_at": "2025-09-22T08:16:20Z",
+    "pushed_at": "2025-09-22T08:16:17Z",
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "open_issues": 0,
+    "language": "TypeScript",
+    "languages": {
+      "TypeScript": 216300,
+      "Python": 27237,
+      "CSS": 8596,
+      "JavaScript": 372,
+      "Shell": 65
+    },
+    "topics": [],
+    "readme": "# pinecone-playground\n\n> *Initially wanted to just play around with Pinecone but here I am with a full stack application :p*\n\n**Tired of hitting limits? Frustrated with poorly formatted MCQs?** Say goodbye to messy notes and hello to well-structured generated notes and MCQs—all in one place!\n\n<div align=\"center\">\n\n[![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)](https://fastapi.tiangolo.com/)\n[![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)\n[![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=for-the-badge&logo=pinecone&logoColor=white)](https://www.pinecone.io/)\n[![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)](https://sqlite.org/)\n\n</div>\n\n## Features\n\n- 📄 **PDF Upload** - Upload and process PDF documents\n- 📝 **Smart Notes Generation** - AI-powered structured study notes\n- 🧠 **MCQ Generation** - Multiple-choice questions with difficulty levels (Easy/Medium/Hard)\n- 🔐 **User Authentication** - Secure JWT-based login system\n- 🎨 **Modern UI** - Clean, responsive Next.js frontend\n- 🚀 **Fast API** - High-performance FastAPI backend\n\n## Screenshots\n\n### 🏠 Main Page\n![Main page Screenshot](readme/main.png)\n\n### 📖 Notes Generation\n![Notes Screenshot](readme/notes.png)\n\n### ❓ MCQ Practice\n![MCQ Screenshot](readme/mcq.png)",
+    "license": "",
+    "is_fork": false,
+    "is_archived": false,
+    "default_branch": "main",
+    "file_structure": [
+      ".gitignore",
+      "README.md",
+      "frontend/.gitignore",
+      "frontend/app/globals.css",
+      "frontend/app/layout.tsx",
+      "frontend/app/login/page.tsx",
+      "frontend/app/mcq/page.tsx",
+      "frontend/app/notes/page.tsx",
+      "frontend/app/page.tsx",
+      "frontend/app/signup/page.tsx",
+      "frontend/app/transcribe/page.tsx",
+      "frontend/components.json",
+      "frontend/components/auth-guard.tsx",
+      "frontend/components/navbar.tsx",
+      "frontend/components/theme-provider.tsx",
+      "frontend/components/ui/accordion.tsx",
+      "frontend/components/ui/alert-dialog.tsx",
+      "frontend/components/ui/alert.tsx",
+      "frontend/components/ui/aspect-ratio.tsx",
+      "frontend/components/ui/avatar.tsx",
+      "frontend/components/ui/badge.tsx",
+      "frontend/components/ui/breadcrumb.tsx",
+      "frontend/components/ui/button.tsx",
+      "frontend/components/ui/calendar.tsx",
+      "frontend/components/ui/card.tsx",
+      "frontend/components/ui/carousel.tsx",
+      "frontend/components/ui/chart.tsx",
+      "frontend/components/ui/checkbox.tsx",
+      "frontend/components/ui/collapsible.tsx",
+      "frontend/components/ui/command.tsx",
+      "frontend/components/ui/context-menu.tsx",
+      "frontend/components/ui/dialog.tsx",
+      "frontend/components/ui/drawer.tsx",
+      "frontend/components/ui/dropdown-menu.tsx",
+      "frontend/components/ui/form.tsx",
+      "frontend/components/ui/hover-card.tsx",
+      "frontend/components/ui/input-otp.tsx",
+      "frontend/components/ui/input.tsx",
+      "frontend/components/ui/label.tsx",
+      "frontend/components/ui/menubar.tsx",
+      "frontend/components/ui/navigation-menu.tsx",
+      "frontend/components/ui/pagination.tsx",
+      "frontend/components/ui/popover.tsx",
+      "frontend/components/ui/progress.tsx",
+      "frontend/components/ui/radio-group.tsx",
+      "frontend/components/ui/resizable.tsx",
+      "frontend/components/ui/scroll-area.tsx",
+      "frontend/components/ui/select.tsx",
+      "frontend/components/ui/separator.tsx",
+      "frontend/components/ui/sheet.tsx",
+      "frontend/components/ui/sidebar.tsx",
+      "frontend/components/ui/skeleton.tsx",
+      "frontend/components/ui/slider.tsx",
+      "frontend/components/ui/sonner.tsx",
+      "frontend/components/ui/switch.tsx",
+      "frontend/components/ui/table.tsx",
+      "frontend/components/ui/tabs.tsx",
+      "frontend/components/ui/textarea.tsx",
+      "frontend/components/ui/toast.tsx",
+      "frontend/components/ui/toaster.tsx",
+      "frontend/components/ui/toggle-group.tsx",
+      "frontend/components/ui/toggle.tsx",
+      "frontend/components/ui/tooltip.tsx",
+      "frontend/components/ui/use-mobile.tsx",
+      "frontend/components/ui/use-toast.ts",
+      "frontend/hooks/use-auth.ts",
+      "frontend/hooks/use-mobile.ts",
+      "frontend/hooks/use-toast.ts",
+      "frontend/lib/auth.ts",
+      "frontend/lib/utils.ts",
+      "frontend/next.config.mjs",
+      "frontend/package-lock.json",
+      "frontend/package.json",
+      "frontend/pnpm-lock.yaml",
+      "frontend/postcss.config.mjs",
+      "frontend/public/placeholder-logo.png",
+      "frontend/public/placeholder-logo.svg",
+      "frontend/public/placeholder-user.jpg",
+      "frontend/public/placeholder.jpg",
+      "frontend/public/placeholder.svg",
+      "frontend/styles/globals.css",
+      "frontend/tsconfig.json",
+      "main.py",
+      "pinecone_assistant_setup.py",
+      "readme/main.png",
+      "readme/mcq.png",
+      "readme/notes.png",
+      "requirements.txt",
+      "standalone/pinecone_assistant.py",
+      "standalone/pinecone_rag.py",
+      "start.sh",
+      "utils/parser_json.py"
+    ],
+    "recent_commits": [
+      {
+        "message": "update readme",
+        "date": "2025-09-22T08:16:04Z",
+        "author": "Rianne Lim"
+      },
+      {
+        "message": "update endpoints",
+        "date": "2025-09-15T03:54:42Z",
+        "author": "Rianne Lim"
+      },
+      {
+        "message": "add more requirements",
+        "date": "2025-09-15T03:45:07Z",
+        "author": "Rianne Lim"
+      },
+      {
+        "message": "add uvicorn to requirements",
+        "date": "2025-09-15T03:41:55Z",
+        "author": "Rianne Lim"
+      },
+      {
+        "message": "update requirements.txt",
+        "date": "2025-09-15T03:36:10Z",
+        "author": "Rianne Lim"
+      }
+    ]
+  },
+  {
+    "name": "web-scraper",
+    "full_name": "riannelimje/web-scraper",
+    "description": null,
+    "url": "https://github.com/riannelimje/web-scraper",
+    "homepage": null,
+    "created_at": "2025-09-18T03:48:53Z",
+    "updated_at": "2025-09-18T06:17:23Z",
+    "pushed_at": "2025-09-18T06:17:20Z",
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "open_issues": 0,
+    "language": "Python",
+    "languages": {
+      "Python": 52444
+    },
+    "topics": [],
+    "readme": "# web-scraper\nThis script automates the process of searching company information on the IA Hong Kong IIR portal using Selenium.\n\nWhat it does automatically:\n1) Reads licence numbers from an Excel file\n2) Opens the IIR search page\n3) Selects the Licence No. radio option\n4) Inputs each licence number into the search box\n\nTo run the script:\nReplace with your own excel file in `start.py`\n```\npython start.py\n```\n\nNote: `web_scraper.py` - captcha and extracting function does not work so I simplified to `start.py`\n",
+    "license": "",
+    "is_fork": false,
+    "is_archived": false,
+    "default_branch": "main",
+    "file_structure": [
+      "README.md",
+      "requirements.txt",
+      "start.py",
+      "web_scraper.py"
+    ],
+    "recent_commits": [
+      {
+        "message": "Update README.md",
+        "date": "2025-09-18T06:17:20Z",
+        "author": "Rianne Lim"
+      },
+      {
+        "message": "Update README.md",
+        "date": "2025-09-18T06:07:05Z",
+        "author": "Rianne Lim"
+      },
+      {
+        "message": "simpler ver - auto input from excel",
+        "date": "2025-09-18T05:48:38Z",
+        "author": "Rianne Lim"
+      },
+      {
+        "message": "add requirements.txt",
+        "date": "2025-09-18T05:46:22Z",
+        "author": "Rianne Lim"
+      },
+      {
+        "message": "works for click for details",
+        "date": "2025-09-18T04:43:38Z",
+        "author": "Rianne Lim"
+      }
+    ]
+  },
+  {
+    "name": "rianne-portfolio",
+    "full_name": "riannelimje/rianne-portfolio",
+    "description": "my portfolio website :)",
+    "url": "https://github.com/riannelimje/rianne-portfolio",
+    "homepage": "https://portfolio-riannes-projects.vercel.app/",
+    "created_at": "2024-09-30T09:05:54Z",
+    "updated_at": "2025-05-23T07:20:55Z",
+    "pushed_at": "2025-05-23T07:20:52Z",
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "open_issues": 0,
+    "language": "TypeScript",
+    "languages": {
+      "TypeScript": 8869,
+      "CSS": 413,
+      "JavaScript": 227
+    },
+    "topics": [],
+    "readme": "This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).\n\n## Getting Started\n\nFirst, run the development server:\n\n```bash\nnpm run dev\n# or\nyarn dev\n# or\npnpm dev\n# or\nbun dev\n```\n\nOpen [http://localhost:3000](http://localhost:3000) with your browser to see the result.\n\nYou can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.\n\nThis project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.\n\n## Learn More\n\nTo learn more about Next.js, take a look at the following resources:\n\n- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.\n- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.\n\nYou can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!\n\n## Deploy on Vercel\n\nThe easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.\n\nCheck out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.\n",
+    "license": "",
+    "is_fork": false,
+    "is_archived": false,
+    "default_branch": "main",
+    "file_structure": [
+      ".eslintrc.json",
+      ".gitignore",
+      "README.md",
+      "app/favicon.ico",
+      "app/fonts/GeistMonoVF.woff",
+      "app/fonts/GeistVF.woff",
+      "app/globals.css",
+      "app/layout.tsx",
+      "app/page.tsx",
+      "app/portfolio.tsx",
+      "next.config.mjs",
+      "package-lock.json",
+      "package.json",
+      "postcss.config.mjs",
+      "tailwind.config.ts",
+      "tsconfig.json"
+    ],
+    "recent_commits": [
+      {
+        "message": "update proj",
+        "date": "2025-05-08T05:51:23Z",
+        "author": "Rianne Lim"
+      },
+      {
+        "message": "update projects",
+        "date": "2024-12-10T03:56:14Z",
+        "author": "Rianne Lim"
+      },
+      {
+        "message": "change file directory\n\nfor ci/cd",
+        "date": "2024-10-15T05:12:31Z",
+        "author": "Rianne Lim"
+      },
+      {
+        "message": "remove mail",
+        "date": "2024-10-15T05:03:13Z",
+        "author": "Rianne Lim"
+      },
+      {
+        "message": "add github and linkedin details",
+        "date": "2024-10-02T10:20:56Z",
+        "author": "Rianne Lim"
+      }
+    ]
+  },
+  {
+    "name": "financial-analytics",
+    "full_name": "riannelimje/financial-analytics",
+    "description": "is453 lab tldr",
+    "url": "https://github.com/riannelimje/financial-analytics",
+    "homepage": "",
+    "created_at": "2025-01-17T07:23:00Z",
+    "updated_at": "2025-04-03T04:14:10Z",
+    "pushed_at": "2025-04-03T04:14:06Z",
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "open_issues": 0,
+    "language": "Jupyter Notebook",
+    "languages": {
+      "Jupyter Notebook": 6299591
+    },
+    "topics": [],
+    "readme": "# financial-analytics\nfor me to store is453 labs \n",
+    "license": "",
+    "is_fork": false,
+    "is_archived": false,
+    "default_branch": "main",
+    "file_structure": [
+      "README.md",
+      "week1/IS453 Session 00 Evnvironment Test Lab.ipynb",
+      "week1/IS453 Session 01 Lab - Student.ipynb",
+      "week1/README.md",
+      "week10/IS453 Session 10 Lab - Student.ipynb",
+      "week10/README.md",
+      "week11/IS453 Session 11 Lab - Student.ipynb",
+      "week11/README.md",
+      "week2/IS453 Session 02 Lab - Student.ipynb",
+      "week2/README.md",
+      "week3/IS453 Session 03 Lab - Student.ipynb",
+      "week3/README.md",
+      "week4/IS453 Session 04 Lab - Student.ipynb",
+      "week4/README.md",
+      "week5/IS453 Session 05 Lab - Student.ipynb",
+      "week5/README.md",
+      "week7/IS453 Session 07 Lab - Student.ipynb",
+      "week7/README.md",
+      "week9/IS453 Session 09 Lab - Student.ipynb",
+      "week9/README.md"
+    ],
+    "recent_commits": [
+      {
+        "message": "Create README.md",
+        "date": "2025-04-03T04:13:57Z",
+        "author": "Rianne Lim"
+      },
+      {
+        "message": "autobinning, scorecard",
+        "date": "2025-04-03T04:04:39Z",
+        "author": "Rianne Lim"
+      },
+      {
+        "message": "Create README.md",
+        "date": "2025-04-02T04:01:37Z",
+        "author": "Rianne Lim"
+      },
+      {
+        "message": "Create README.md",
+        "date": "2025-04-01T06:41:33Z",
+        "author": "Rianne Lim"
+      },
+      {
+        "message": "woe and iv",
+        "date": "2025-03-31T02:16:50Z",
+        "author": "Rianne Lim"
+      }
+    ]
+  },
+  {
+    "name": "advent-of-code",
+    "full_name": "riannelimje/advent-of-code",
+    "description": "a christmas adventure 🎄",
+    "url": "https://github.com/riannelimje/advent-of-code",
+    "homepage": "",
+    "created_at": "2024-12-10T02:41:41Z",
+    "updated_at": "2024-12-30T05:28:00Z",
+    "pushed_at": "2024-12-30T05:27:56Z",
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "open_issues": 0,
+    "language": "Python",
+    "languages": {
+      "Python": 39123,
+      "Java": 1568
+    },
+    "topics": [],
+    "readme": "# Advent of Code 2024\n[Advent of Code 2024](https://adventofcode.com/2024/about)\n\n🎄 A puzzle a day to keep boredom at bay ⛄️  \n✨ (and for me to see how messy my code can get lol) 💻  \n🔍 Watch as I try to solve puzzles... badly, but with enthusiasm! 🚀  \n\n## Spoiler Alert\n- 🚨 *The solutions might not always be optimal, but at least they work (hopefully)* 🚨\n",
+    "license": "",
+    "is_fork": false,
+    "is_archived": false,
+    "default_branch": "main",
+    "file_structure": [
+      "README.md",
+      "day1/1-2.py",
+      "day1/1.py",
+      "day1/Day1.java",
+      "day1/input.txt",
+      "day1/test.txt",
+      "day10/input.txt",
+      "day10/p1.py",
+      "day10/p2.py",
+      "day10/test.txt",
+      "day11/input.txt",
+      "day11/p1.py",
+      "day11/p2.py",
+      "day11/test.txt",
+      "day12/input.txt",
+      "day12/p1.py",
+      "day12/test.txt",
+      "day13/input.txt",
+      "day13/p1.py",
+      "day13/p2.py",
+      "day13/test.txt",
+      "day14/input.txt",
+      "day14/p1.py",
+      "day14/p2.py",
+      "day14/test.txt",
+      "day15/input.txt",
+      "day15/p1.py",
+      "day15/p2.py",
+      "day15/test.txt",
+      "day16/input.txt",
+      "day16/p1.py",
+      "day16/p2.py",
+      "day16/test.txt",
+      "day17/input.txt",
+      "day17/p1.py",
+      "day17/test.txt",
+      "day18/input.txt",
+      "day18/p1.py",
+      "day18/p2.py",
+      "day18/test.txt",
+      "day2/2-2.py",
+      "day2/2.py",
+      "day2/input.txt",
+      "day2/test.txt",
+      "day3/3-2.py",
+      "day3/3.py",
+      "day3/input.txt",
+      "day3/test.txt",
+      "day4/4-2.py",
+      "day4/4.py",
+      "day4/input.txt",
+      "day4/test.txt",
+      "day5/5-2.py",
+      "day5/5.py",
+      "day5/input.txt",
+      "day5/test.txt",
+      "day6/6-2.py",
+      "day6/6.py",
+      "day6/input.txt",
+      "day6/test.txt",
+      "day7/7-2.py",
+      "day7/7.py",
+      "day7/input.txt",
+      "day7/test.txt",
+      "day8/8-2.py",
+      "day8/8.py",
+      "day8/input.txt",
+      "day8/test.txt",
+      "day9/9-2.py",
+      "day9/9.py",
+      "day9/input.txt",
+      "day9/test.txt"
+    ],
+    "recent_commits": [
+      {
+        "message": "bfs and binary search",
+        "date": "2024-12-30T05:27:30Z",
+        "author": "Rianne Lim"
+      },
+      {
+        "message": "day18 part1 done",
+        "date": "2024-12-30T03:56:53Z",
+        "author": "Rianne Lim"
+      },
+      {
+        "message": "day17 part1 done",
+        "date": "2024-12-27T07:05:28Z",
+        "author": "Rianne Lim"
+      },
+      {
+        "message": "Dijkstra's algorithm",
+        "date": "2024-12-26T06:23:34Z",
+        "author": "Rianne Lim"
+      },
+      {
+        "message": "day16 part1 done",
+        "date": "2024-12-26T05:09:18Z",
+        "author": "Rianne Lim"
+      }
+    ]
+  },
+  {
+    "name": "SCRUM",
+    "full_name": "riannelimje/SCRUM",
+    "description": "work from home management platform",
+    "url": "https://github.com/riannelimje/SCRUM",
+    "homepage": "https://scrum-ten.vercel.app",
+    "created_at": "2024-12-20T12:38:39Z",
+    "updated_at": "2024-12-21T03:09:21Z",
+    "pushed_at": "2024-11-07T05:09:59Z",
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "open_issues": 0,
+    "language": null,
+    "languages": {
+      "Python": 100848,
+      "Vue": 57965,
+      "JavaScript": 6097,
+      "HTML": 613
+    },
+    "topics": [],
+    "readme": "# scrum-proj\n\n## Welcome to WFH System\nA comprehensive solution for Work From Home (WFH) applications\n<br/> The website can be accessed here: https://scrum-ten.vercel.app/\n\n## Login Credentials \n### CEO \nemail: jack.sim@allinone.com.sg\n<br/>\npassword: 111111\n### Sales Director\nemail : derek.tan@allinone.com.sg\n<br/>\npassword: 111111\n### Manager\nemail: rahim.khalid@allinone.com.sg\n<br/>\npassword: 111111\n### Staff\nemail: janice.chan@allinone.com.sg\n<br/>\npassword: 111111\n\n## Project setup\n```\nnpm install\n```\n\n### Compiles and hot-reloads for development\n```\nnpm run serve\n```\n### Start the backend server \n```\ncd backend\nflask run\n```\n\n### Compiles and minifies for production\n```\nnpm run build\n```\n\n### Lints and fixes files\n```\nnpm run lint\n```\n\n### Customize configuration\nSee [Configuration Reference](https://cli.vuejs.org/config/).\n",
+    "license": "",
+    "is_fork": true,
+    "is_archived": false,
+    "default_branch": "main",
+    "file_structure": [
+      ".github/workflows/python-app.yml",
+      ".gitignore",
+      "README.md",
+      "babel.config.js",
+      "backend/.gitignore",
+      "backend/Unit Test Cases/.coverage",
+      "backend/Unit Test Cases/US001.py",
+      "backend/Unit Test Cases/US003.py",
+      "backend/Unit Test Cases/US014.py",
+      "backend/Unit Test Cases/US016.py",
+      "backend/Unit Test Cases/US04.py",
+      "backend/Unit Test Cases/US06.py",
+      "backend/Unit Test Cases/US08.py",
+      "backend/Unit Test Cases/US09.py",
+      "backend/Unit Test Cases/emailTest.py",
+      "backend/app.py",
+      "backend/applicationstatus.py",
+      "backend/config.py",
+      "backend/requirements.txt",
+      "backend/submitapplication.py",
+      "backend/vercel.json",
+      "database/create_sql_file.py",
+      "database/employeenew.csv",
+      "database/import_data.sql",
+      "database/loginCredentials.py",
+      "jsconfig.json",
+      "package-lock.json",
+      "package.json",
+      "public/favicon.ico",
+      "public/index.html",
+      "requirements.txt",
+      "src/App.vue",
+      "src/assets/logo.png",
+      "src/assets/logo.svg",
+      "src/components/HelloWorld.vue",
+      "src/components/NavBar.vue",
+      "src/main.js",
+      "src/plugins/vuetify.js",
+      "src/plugins/webfontloader.js",
+      "src/router/index.js",
+      "src/utils/supabase.js",
+      "src/utils/useUser.js",
+      "src/views/HomeView.vue",
+      "src/views/LoginView.vue",
+      "src/views/MySchedule.vue",
+      "src/views/OverallSchedule.vue",
+      "src/views/SubmissionTest.vue",
+      "src/views/TeamSchedule.vue",
+      "src/views/WFHapplicationsManager.vue",
+      "src/views/WFHapplicationsStaff.vue",
+      "src/views/WFHrequestForm.vue",
+      "vue.config.js"
+    ],
+    "recent_commits": [
+      {
+        "message": "Update README.md",
+        "date": "2024-11-07T05:09:59Z",
+        "author": "Rianne Lim"
+      },
+      {
+        "message": "use case 16",
+        "date": "2024-11-02T09:49:40Z",
+        "author": "ttyo31"
+      },
+      {
+        "message": "Merge branch 'main' of https://github.com/ttyo31/SCRUM",
+        "date": "2024-11-02T08:27:49Z",
+        "author": "Rianne Lim"
+      },
+      {
+        "message": "refactor v-if for overall schedule",
+        "date": "2024-11-02T08:27:43Z",
+        "author": "Rianne Lim"
+      },
+      {
+        "message": "Update README.md",
+        "date": "2024-11-01T09:53:28Z",
+        "author": "Rianne Lim"
+      }
+    ]
+  },
+  {
+    "name": "is212-week11",
+    "full_name": "riannelimje/is212-week11",
+    "description": null,
+    "url": "https://github.com/riannelimje/is212-week11",
+    "homepage": null,
+    "created_at": "2024-11-25T03:18:49Z",
+    "updated_at": "2024-11-25T05:24:58Z",
+    "pushed_at": "2024-11-25T05:24:54Z",
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "open_issues": 0,
+    "language": "Python",
+    "languages": {
+      "Python": 9652
+    },
+    "topics": [],
+    "readme": "# is212-week11\n\nPlease fork this repository to work on the refactoring exercises.",
+    "license": "",
+    "is_fork": true,
+    "is_archived": false,
+    "default_branch": "main",
+    "file_structure": [
+      ".github/workflows/ex1.yml",
+      ".github/workflows/ex2.yml",
+      ".github/workflows/ex3.yml",
+      ".gitignore",
+      "README.md",
+      "ex1/ex1_smelly.py",
+      "ex1/ex1_unit_tests.py",
+      "ex2/ex2_smelly.py",
+      "ex2/ex2_unit_tests.py",
+      "ex3/ex3_smelly.py",
+      "ex3/ex3_unit_tests.py"
+    ],
+    "recent_commits": [
+      {
+        "message": "refactor ex3 duplicate code",
+        "date": "2024-11-25T05:24:50Z",
+        "author": "Rianne Lim"
+      },
+      {
+        "message": "refactor ex2 code and unit test",
+        "date": "2024-11-25T04:11:29Z",
+        "author": "Rianne Lim"
+      },
+      {
+        "message": "refactor ex1 using extract method",
+        "date": "2024-11-25T03:49:59Z",
+        "author": "Rianne Lim"
+      },
+      {
+        "message": "test",
+        "date": "2024-10-25T18:04:24Z",
+        "author": "Chris Poskitt"
+      },
+      {
+        "message": "Rename main.yml to ex3.yml",
+        "date": "2024-10-25T18:03:20Z",
+        "author": "Chris Poskitt"
+      }
+    ]
+  }
+]
